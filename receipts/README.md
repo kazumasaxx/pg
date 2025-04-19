@@ -1,0 +1,6 @@
+bolt.newで生成したレシート読み取りアプリ
+
+動作には、下記を記載した.envファイルが必要
+VITE_SUPABASE_ANON_KEY=
+VITE_SUPABASE_URL=
+VITE_GEMINI_API_KEY=
