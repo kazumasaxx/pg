@@ -51,7 +51,7 @@ function App() {
         />
       );
     case 'scan':
-      return <ScanReceipt onBackToList={() => setCurrentPage('list')} />;
+      return <ScanReceipt onBack={() => setCurrentPage('list')} />;
     case 'edit':
       return editingReceipt ? (
         <EditReceipt
